@@ -1,25 +1,25 @@
-// Henry Challenge por Iván Aguiar
+// Henry Challenge por Ivï¿½n Aguiar
 //
 // Ejercicio 2:
 //
 // Consigna:
 //
-// Escribir un algoritmo que encuentre el máximo y el minímo número dentro de una lista de números enteros (desordenados).
+// Escribir un algoritmo que encuentre el mï¿½ximo y el minï¿½mo nï¿½mero dentro de una lista de nï¿½meros enteros (desordenados).
 //
 //
 //
-// Explicación del algoritmo:
+// Explicaciï¿½n del algoritmo:
 //
-// Este programa utilizará el método burbuja. Primero se declarará un array de 5 espacios (int list[5]).
-// Y además unas variables que ayudarán a resolver la consigna (numX, numY y saveNum).
+// Este programa utilizarï¿½ el mï¿½todo burbuja. Primero se declararï¿½ un array de 5 espacios (int list[5]).
+// Y ademï¿½s unas variables que ayudarï¿½n a resolver la consigna (numX, numY y saveNum).
 // numX y numY son variables para el for.
-// numY empezará siempre una posición más que numX (numY = numX + 1) con el fin de poder comparar.
-// El programa recibirá los 5 números que el usuario inserte en la consola y los irá comparando entre ellos.
-// Si detecta que en el array hay un número menor que otro, lo acomoda y vuelve a empezar.
-// De esta manera ordenará los números de menor a mayor.
-// saveNum es la variable que almacenará el primer número cuando otro toma su lugar en el proceso de comparación.
-// Al final del programa el primer cout mostrará en pantalla el número en la posición 0 (el más chico)
-// Y el segundo cout mostrará el número en la posición 4 (el más grande)
+// numY empezarï¿½ siempre una posiciï¿½n mï¿½s que numX (numY = numX + 1) con el fin de poder comparar.
+// El programa recibirï¿½ los 5 nï¿½meros que el usuario inserte en la consola y los irï¿½ comparando entre ellos.
+// Si detecta que en el array hay un nï¿½mero menor que otro, lo acomoda y vuelve a empezar.
+// De esta manera ordenarï¿½ los nï¿½meros de menor a mayor.
+// saveNum es la variable que almacenarï¿½ el primer nï¿½mero cuando otro toma su lugar en el proceso de comparaciï¿½n.
+// Al final del programa el primer cout mostrarï¿½ en pantalla el nï¿½mero en la posiciï¿½n 0 (el mï¿½s chico)
+// Y el segundo cout mostrarï¿½ el nï¿½mero en la posiciï¿½n 4 (el mï¿½s grande)
 //
 //
 
@@ -53,6 +53,11 @@ int main()
                             
               cout << "\nNumero mas chico: " << list[0] << endl;
               cout << "Numero mas grande: " << list[4] << endl;
+
+              cin.ignore();
+              cin.get();
+
+              return 0;
 
  }
 
